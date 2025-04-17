@@ -1,4 +1,3 @@
-alert("Hello");
 document.getElementById('weather-form').addEventListener('submit', function(event) {
     event.preventDefault();
     const city = document.getElementById('city-input').value;
