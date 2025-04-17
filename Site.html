@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Погодное приложение</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Текущая погода</h1>
+    </header>
+    <main>
+        <form id="weather-form">
+            <input type="text" id="city-input" placeholder="Введите город" required>
+            <button type="submit">Получить погоду</button>
+        </form>
+        <section id="weather-display"></section>
+        <div id="loading" style="display:none;">Загрузка...</div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
